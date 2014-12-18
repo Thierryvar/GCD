@@ -32,8 +32,7 @@ fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). T
 has gravitational and body motion components, was separated using a Butterworth low-pass filter
 into body acceleration and gravity. The gravitational force is assumed to have only low frequency components,
 therefore a filter with 0.3 Hz cutoff frequency was used.
- ===================================================================
- Thanks to Smartlab's Team.
+# Thanks to Smartlab's Team.
  ========================
 
 ## The repo contains:
