@@ -4,10 +4,10 @@ Getting and Cleaning Data
 Repo created on 10th December 2014 for Getting and Cleaning Data Assignement in Cousera Course
 
 The initial UCI HAR Dataset is only on local desktop and not followed by Git (useless)
- It's a data set issue of:
+ It's a data set issue from
  ==================================================================
-  Human Activity Recognition Using Smartphones Dataset Version 1.0
-  ==================================================================
+ Human Activity Recognition Using Smartphones Dataset Version 1.0
+ ==================================================================
  
  Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
  Smartlab - Non Linear Complex Systems Laboratory
