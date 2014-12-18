@@ -1,4 +1,4 @@
-GCD Repo
+# GCD Repo
 =========
 Getting and Cleaning Data
 Repo created on 10th December 2014 for Getting and Cleaning Data Assignement in Cousera Course
@@ -19,7 +19,8 @@ Its a data set issue of:
 |==================================================================
 |
 |The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
-|Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+|Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING,
+|LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 |Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.
 |The experiments have been video-recorded to label the data manually.
 |The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
@@ -32,7 +33,7 @@ Its a data set issue of:
 | Thanks to Smartlab's Team.
 |========================
 
-The repo contains:
+## The repo contains:
 
 - this file wich explains the origin af the data, the treatment done in the script and the code book here after
 - run_analysis.R the script applied to elaborate final data 
