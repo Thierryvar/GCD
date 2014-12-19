@@ -57,54 +57,53 @@ and apply mean() to obtain reduced data set with one observation by subjet and a
 -> only 180 = 30 subjects * 6 activities 
 
 ## Code Book
-All variables are listed below. For each row, was extracted all the mean() and std() values.
-The post treatment done elaborate the mean value of rows by subject and activities.
-Some variables not explicitly detailled in the original set were kept (it's the for *BodyBody* variables for example).
-_XYZ is relative to three values, one for each axis.
-variable beginning with "t" is relative to time acquisition (raw data)
-variable beginning with "f" is relative to frequence (result of treatement)
-==========
-subject
-activity
-tBodyAcc_mean()_XYZ
-tGravityAcc_mean()_XYZ
-tBodyAccJerk_mean()_XYZ 
-tBodyGyro_mean()_XYZ
-tBodyGyroJerk_mean()_XYZ
-tBodyAccMag_mean() 
-tGravityAccMag_mean() 
-tBodyAccJerkMag_mean() 
-tBodyGyroMag_mean() 
-tBodyGyroJerkMag_mean()
-fBodyAcc_mean()_XYZ
-fBodyAcc_meanFreq()_XYZ
-fBodyAccJerk_mean()_XYZ
-fBodyAccJerk_meanFreq()_XYZ
-fBodyGyro_mean()_XYZ
-fBodyGyro_meanFreq()_XYZ
-fBodyAccMag_mean()
-fBodyAccMag_meanFreq()
-fBodyBodyAccJerk	_mean()
-fBodyBodyAccJerk	_meanFreq()
-fBodyBodyGyroMag_mean()
-fBodyBodyGyroMag_meanFreq()
-fBodyBodyGyroJerkMag_mean()
-fBodyBodyGyroJerkMag_meanFreq()
-tBodyAcc_std()_XYZ
-tGravityAcc_std()_XYZ
-tBodyAccJerk_std()_XYZ
-tBodyGyro_std()_XYZ
-tBodyGyroJerk_std()_XYZ
-tBodyAccMag_std()
-tGravityAccMag_std()
-tBodyAccJerkMag_std()
-tBodyGyroMag_std()
-tBodyGyroJerkMag_std()
-fBodyAcc_std()_XYZ
-fBodyAccJerk_std()_XYZ
-fBodyGyro_std()_XYZ
-fBodyAccMag_std()
-fBodyBodyAccJerkMag_std()
-fBodyBodyGyroMag_std()
-fBodyBodyGyroMag_std()
-=========
+ All variables are listed below. For each row, was extracted all the mean() and std() values.
+ The post treatment done elaborate the mean value of rows by subject and activities.
+ Some variables not explicitly detailled in the original set were kept (it's the for *BodyBody* variables for example).
+ _XYZ is relative to three values, one for each axis.
+ variable beginning with "t" is relative to time acquisition (raw data)
+ variable beginning with "f" is relative to frequence (result of treatement)
+
+- subject
+- activity
+- tBodyAcc_mean()_XYZ
+- tGravityAcc_mean()_XYZ
+- tBodyAccJerk_mean()_XYZ 
+- tBodyGyro_mean()_XYZ
+- tBodyGyroJerk_mean()_XYZ
+- tBodyAccMag_mean() 
+- tGravityAccMag_mean() 
+- tBodyAccJerkMag_mean() 
+- tBodyGyroMag_mean() 
+- tBodyGyroJerkMag_mean()
+- fBodyAcc_mean()_XYZ
+- fBodyAcc_meanFreq()_XYZ
+- fBodyAccJerk_mean()_XYZ
+- fBodyAccJerk_meanFreq()_XYZ
+- fBodyGyro_mean()_XYZ
+- fBodyGyro_meanFreq()_XYZ
+- fBodyAccMag_mean()
+- fBodyAccMag_meanFreq()
+- fBodyBodyAccJerk	_mean()
+- fBodyBodyAccJerk	_meanFreq()
+- fBodyBodyGyroMag_mean()
+- fBodyBodyGyroMag_meanFreq()
+- fBodyBodyGyroJerkMag_mean()
+- fBodyBodyGyroJerkMag_meanFreq()
+- tBodyAcc_std()_XYZ
+- tGravityAcc_std()_XYZ
+- tBodyAccJerk_std()_XYZ
+- tBodyGyro_std()_XYZ
+- tBodyGyroJerk_std()_XYZ
+- tBodyAccMag_std()
+- tGravityAccMag_std()
+- tBodyAccJerkMag_std()
+- tBodyGyroMag_std()
+- tBodyGyroJerkMag_std()
+- fBodyAcc_std()_XYZ
+- fBodyAccJerk_std()_XYZ
+- fBodyGyro_std()_XYZ
+- fBodyAccMag_std()
+- fBodyBodyAccJerkMag_std()
+- fBodyBodyGyroMag_std()
+- fBodyBodyGyroMag_std()
