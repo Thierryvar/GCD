@@ -102,7 +102,7 @@ new_d <- arrange(data_total,subject,activity)
 
 new_tidy <- summarise_each(group_by(new_d,subject,activity),funs(mean))
 
-write.table(new_tidy,"GCD_tidy",row.name = FALSE )
+write.table(new_tidy,"GCD_tidy.txt",row.name = FALSE )
 
 print("STEP5 ended")
 ## Final result 180 observations of 81 variables
