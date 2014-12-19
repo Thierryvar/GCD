@@ -1,6 +1,7 @@
-# GCD Repo
+# GCD Repo 
  Created on 10th December 2014 for Getting and Cleaning Data Assignement in Cousera Course
-
+ This file contains Code Book
+ 
 The initial UCI HAR Dataset is only on local desktop and not followed by Git (useless)
  It's a data set issue from :
  
@@ -16,7 +17,7 @@ The initial UCI HAR Dataset is only on local desktop and not followed by Git (us
  ==================================================================
 
  The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
- Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING,
+ Each person performed six activities (WALKING, WALKING-UPSTAIRS, WALKING-DOWNSTAIRS, SITTING, STANDING,
  LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
  Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular
  velocity at a constant rate of 50Hz.
@@ -58,33 +59,53 @@ and apply mean() to obtain reduced data set with one observation by subjet and a
 -> only 180 = 30 subjects * 6 activities 
 
 ## Code Book
+All variables are listed below. For each row, was extracted all the mean() and std() values.
+The post treatment done elaborate the mean value of rows by subject and activities.
+Some variables not explicitly detailled in the original set were kept (it's the for *BodyBody* variables for example).
+_XYZ is relative to three values, one for each axis.
+variable beginning with "t" is relative to time acquisition (raw data)
+variable beginning with "f" is relative to frequence (result of treatement)
 
-
-
-
-
-
-
-
-
-
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+subject
+activity
+tBodyAcc_mean()_XYZ
+tGravityAcc_mean()_XYZ
+tBodyAccJerk_mean()_XYZ 
+tBodyGyro_mean()_XYZ
+tBodyGyroJerk_mean()_XYZ
+tBodyAccMag_mean() 
+tGravityAccMag_mean() 
+tBodyAccJerkMag_mean() 
+tBodyGyroMag_mean() 
+tBodyGyroJerkMag_mean()
+fBodyAcc_mean()_XYZ
+fBodyAcc_meanFreq()_XYZ
+fBodyAccJerk_mean()_XYZ
+fBodyAccJerk_meanFreq()_XYZ
+fBodyGyro_mean()_XYZ
+fBodyGyro_meanFreq()_XYZ
+fBodyAccMag_mean()
+fBodyAccMag_meanFreq()
+fBodyBodyAccJerk	_mean()
+fBodyBodyAccJerk	_meanFreq()
+fBodyBodyGyroMag_mean()
+fBodyBodyGyroMag_meanFreq()
+fBodyBodyGyroJerkMag_mean()
+fBodyBodyGyroJerkMag_meanFreq()
+tBodyAcc_std()_XYZ
+tGravityAcc_std()_XYZ
+tBodyAccJerk_std()_XYZ
+tBodyGyro_std()_XYZ
+tBodyGyroJerk_std()_XYZ
+tBodyAccMag_std()
+tGravityAccMag_std()
+tBodyAccJerkMag_std()
+tBodyGyroMag_std()
+tBodyGyroJerkMag_std()
+fBodyAcc_std()_XYZ
+fBodyAccJerk_std()_XYZ
+fBodyGyro_std()_XYZ
+fBodyAccMag_std()
+fBodyBodyAccJerkMag_std()
+fBodyBodyGyroMag_std()
+fBodyBodyGyroMag_std()
