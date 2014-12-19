@@ -63,7 +63,7 @@ Some variables not explicitly detailled in the original set were kept (it's the 
 _XYZ is relative to three values, one for each axis.
 variable beginning with "t" is relative to time acquisition (raw data)
 variable beginning with "f" is relative to frequence (result of treatement)
-
+==========
 subject
 activity
 tBodyAcc_mean()_XYZ
@@ -107,3 +107,4 @@ fBodyAccMag_std()
 fBodyBodyAccJerkMag_std()
 fBodyBodyGyroMag_std()
 fBodyBodyGyroMag_std()
+=========
