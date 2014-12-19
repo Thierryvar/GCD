@@ -1,12 +1,12 @@
 # GCD Repo 
- Created on 10th December 2014 for Getting and Cleaning Data Assignement in Cousera Course
+Created on 10th December 2014 for Getting and Cleaning Data Assignement in Cousera Course
 ## The repo contains:
 - this file wich explains the origin af the data, the treatment done in the script and the code book here after
 - run_analysis.R the script applied to elaborate final data 
 - the final tidy set GCD_tidy
  
 The initial UCI HAR Dataset is only on local desktop and not followed by Git (useless)
- It's a data set issue from :
+It's a data set issue from :
  
  =================================================================
  
