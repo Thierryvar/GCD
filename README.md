@@ -3,6 +3,7 @@
 
 The initial UCI HAR Dataset is only on local desktop and not followed by Git (useless)
  It's a data set issue from :
+ 
  =================================================================
  
  Human Activity Recognition Using Smartphones Dataset Version 1.0
