@@ -47,23 +47,23 @@ Adding two columns "subject" and "activity"
 - Step 2:
 Extracting all the columns with mean or std and the first two columns "subject", "activity" 
 - Step 3:
-Replacing column activity values by descriptive label
+Replacing column activity values by descriptive labels
 - Step 4:
 The original labels were kept
 Only substition of "-" by "_"
 - Step 5:
 Ordering the data by subject, activity 
-and apply mean() to obtain reduced data set with one observation by subjet and activity
+and apply mean() to obtain reduced data set with one observation by subject and activity
 -> only 180 = 30 subjects * 6 activities 
 
 ## Code Book
- All variables are listed below. For each row, was extracted all the mean() and std() values.
- The post treatment done elaborate the mean value of rows by subject and activities.
- Some variables not explicitly detailled in the original set were kept (it's the for *BodyBody* variables for example).
+ All variables are listed below. For each row, were extracted all the mean() and std() values.
+ The post treatment done elaborates the mean value of rows by subject and activities.
+ Some variables not explicitly detailled in the original set were kept (it's the case for *BodyBody* variables for example).
  _XYZ is relative to three values, one for each axis.
- variable beginning with "t" is relative to time acquisition (raw data)
+ variable beginning with "t" is relative to time acquisition (raw data), 
  variable beginning with "f" is relative to frequence (result of treatement)
-
+### List of variables
 - subject
 - activity
 - tBodyAcc_mean()_XYZ
